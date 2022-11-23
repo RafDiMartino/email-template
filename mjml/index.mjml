@@ -1,0 +1,160 @@
+<mjml>
+    <mj-head>
+        <mj-title>MJML Prototype</mj-title>
+        <mj-style>
+            .box-shadow div table tr td {
+                box-shadow: 5px 10px 18px red:
+            }
+            .border {
+                border: 1px solid #bdbdbd;
+            }
+            .anchor{
+                color: #b1b1b1;
+            }
+
+        </mj-style>
+        <mj-attributes>
+            <mj-all padding="0" />
+            <mj-class name="big-text" font-size="50px" align="center"/>
+            <mj-class name="bg-image" background-image="url(https://unsplash.it/700)" />
+            <mj-class name="img"/>
+            <mj-class name="border" border="1px solid black" />
+            <mj-class name="img-footer" height="200px" />
+            <mj-class name="img-full" width="600px"/>
+
+        </mj-attributes>
+    </mj-head>
+
+    <mj-body background-color="#E6E6E6">
+        <mj-wrapper css-class="border">
+            <mj-section background-color="#FFFFFF">
+                <mj-column>
+                    <mj-image mj-class="img-full" src="./images/header-image.jpeg" alt="" />
+                </mj-column>
+            </mj-section>
+
+            <mj-section background-color="#FFFFFF">
+                <mj-column>
+                    <mj-image mj-class="img" src="https://unsplash.it/600/300" alt="" />
+                </mj-column>
+            </mj-section>
+
+            <mj-section background-color="#FFFFFF" padding="30px 0 0 0">
+                <mj-column padding="20px">
+                    <mj-text>
+                        <h2>Hello Prospective Student,</h2> 
+                        <p>Proactively envisioned multimedia based expertise and cross-media growth strategies. Seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing.</p>
+                    </mj-text>
+
+                    <mj-text>
+                    <a href="https://www.google.com"> Lorem ipsum </a> dolor sit amet, consectetur adipiscing elit. Nam id urna vel eros iaculis dictum. Pellentesque eleifend ultrices erat. Phasellus porta egestas congue. Vestibulum vestibulum metus eget tortor luctus facilisis. 
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+
+            <mj-section background-color="#FFFFFF">
+                <mj-column>
+                    <mj-button href="#" padding="30px 0" width="100%">
+                        Click Me!
+                    </mj-button>
+                </mj-column>
+            </mj-section>
+
+                <!-- Side image -->
+            <mj-section background-color="#FFFFFF" padding="0 0 50px 0">
+
+            <!-- Left image -->
+                <mj-column padding="20px">
+                    <mj-image align="left"
+                            src="https://unsplash.it/600/400" />
+                </mj-column>
+
+                <!-- right paragraph -->
+                <mj-column padding="20px">
+                    <mj-text font-style="bold"
+                            font-size="20px"
+                            font-family="Helvetica Neue"
+                            color="#626262"
+                            padding="20px 0">
+                        Find amazing places
+                    </mj-text>
+
+                    <mj-text color="#525252">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus.
+                    </mj-text>
+
+                </mj-column>
+
+            </mj-section>
+            
+            <mj-section background-color="#FFFFFF">
+                <mj-column>
+                    <mj-button href="#" padding="30px 0">
+                        Click Me!
+                    </mj-button> 
+                </mj-column>
+            </mj-section>
+
+            <mj-section background-color="#FFFFFF">
+                <mj-column >
+                    <mj-social padding="20px 20px">
+                        <mj-social-element name="twitter" padding="0 10px"></mj-social-element>
+                        <mj-social-element name="linkedin" padding="0 10px"></mj-social-element>
+                        <mj-social-element name="youtube" padding="0 10px"></mj-social-element>
+                    </mj-social>
+                </mj-column>
+            </mj-section>
+            <!-- Footer -->
+            <mj-section padding="0 0 50px 0" background-color="#414141">
+
+            <!-- Left image -->
+                <mj-column padding="20px" >
+                    <mj-text color="#FFFFFF">
+                        <p>©2002-2022, Graduate Management</p>
+                        <p>Admission Council (GMAC).</p>
+                        <p class="anchor">To ensure talent never goes undiscovered</p>
+                    </mj-text>
+                </mj-column>
+
+                <!-- right paragraph -->
+                <mj-column padding="20px">
+                    <mj-social padding="10px 0" align="right">
+                        <mj-social-element name="twitter" padding="0 10px"></mj-social-element>
+                        <mj-social-element name="linkedin" padding="0 10px"></mj-social-element>
+                        <mj-social-element name="youtube" padding="0 0 0 10px"></mj-social-element>
+                    </mj-social>
+                    <mj-text color="#FFFFFF" align="right">
+                        <p>Quick Links</p>
+                        <p><a class="anchor" color="#b1b1b1" href="#">Reach & Recruit Candidates</a></p>
+                        <p><a class="anchor" href="#">The GMAT™ Exam & Other Assessments</a></p>
+                        <p><a class="anchor" href="#">Market Intelligence</a></p>
+                        <p><a class="anchor" href="#">Professional Development</a></p>
+                        <p><a class="anchor" href="#">The Value of GMAC</a></p>
+                    </mj-text>
+
+                </mj-column>
+
+            </mj-section>
+<!--        
+            <mj-section background-color="#FFFFFF" border-top="1px solid #b9b8b8">
+                <mj-column>
+                    <mj-image src="./images/footer-image.png" alt=""/>
+                </mj-column>
+            </mj-section> -->
+        </mj-wrapper>
+        <mj-section>
+            <mj-column>
+                <mj-text align="center" 
+                        color="#b1b1b1"
+                        font-size="8px">
+                    <p>© 2022 Graduate Management Admission Council (GMAC). All rights reserved. Graduate Management Admission Council™ is a trademark of GMAC in the United States and other countries. The MBA Tour™ is a trademark of The MBA Tour, Inc. A subsidiary of GMAC.</p>
+                    <p>Our mailing address is:</p>
+                    <p>Graduate Management Admission Council</p>
+                    <p>PO Box 2969</p>
+                    <p>Reston VA 20190 USA</p>
+                    <p><a href="#" >Unsubscribe from all future emails</a></p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
