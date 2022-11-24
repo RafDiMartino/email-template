@@ -1,0 +1,31 @@
+<mjml>
+    <mj-body>
+        <mj-section background-color="#FFFFFF" padding="0 0 50px 0">
+
+        <!-- Left image -->
+            <mj-column padding="20px">
+                <mj-image align="left"
+                        src="https://unsplash.it/600/400" />
+            </mj-column>
+
+            <!-- right paragraph -->
+            <mj-column padding="20px">
+                <mj-text font-style="bold"
+                        font-size="20px"
+                        font-family="Helvetica Neue"
+                        color="#626262"
+                        padding="20px 0">
+                    Find amazing places
+                </mj-text>
+
+                <mj-text color="#525252">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus.
+                </mj-text>
+
+            </mj-column>
+
+        </mj-section>
+
+    </mj-body>
+    
+</mjml>
