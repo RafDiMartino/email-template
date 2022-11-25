@@ -119,9 +119,9 @@
                 <!-- right paragraph -->
                 <mj-column padding="20px">
                     <mj-social padding="10px 0" align="right">
-                        <mj-social-element name="twitter" padding="0 10px"></mj-social-element>
-                        <mj-social-element name="linkedin" padding="0 10px"></mj-social-element>
-                        <mj-social-element name="youtube" padding="0 0 0 10px"></mj-social-element>
+                        <mj-social-element name="twitter" padding="0 10px" border-radius="50px" background-color="black"></mj-social-element>
+                        <mj-social-element name="linkedin" padding="0 10px" border-radius="50px" background-color="black"></mj-social-element>
+                        <mj-social-element name="youtube" padding="0 0 0 10px" border-radius="50px" background-color="black"></mj-social-element>
                     </mj-social>
                     <mj-text color="#FFFFFF" align="right">
                         <p>Quick Links</p>
